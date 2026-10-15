@@ -1,0 +1,13 @@
+{
+  "collectionName": "blx_variants",
+  "schemaName": "Variant",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "productId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "optionsJson", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false, "description": "JSON array of option pairs, e.g. Size: Small, Colour: Blue" },
+    { "name": "price", "type": "Float", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "stock", "type": "Int", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "sortOrder", "type": "Int", "isArray": false, "isRequired": false, "isUniqueData": false }
+  ]
+}

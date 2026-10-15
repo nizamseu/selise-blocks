@@ -1,0 +1,12 @@
+{
+  "collectionName": "blx_themeversions",
+  "schemaName": "ThemeVersion",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "publishedOn", "type": "DateTime", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "summary", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "publishedBy", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "snapshotJson", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false }
+  ]
+}

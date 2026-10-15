@@ -1,0 +1,16 @@
+{
+  "collectionName": "blx_products",
+  "schemaName": "Product",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "title", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "slug", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "description", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "categoryId", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "imagesJson", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false, "description": "JSON array of image URLs or file ids, first one is the tile image" },
+    { "name": "state", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "Draft, Published or Hidden" },
+    { "name": "publishedAt", "type": "DateTime", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "createdBy", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false }
+  ]
+}

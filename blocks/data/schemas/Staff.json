@@ -1,0 +1,16 @@
+{
+  "collectionName": "blx_staffs",
+  "schemaName": "Staff",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "userId", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "email", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "name", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "role", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "Brand owner or Brand editor" },
+    { "name": "state", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "Invited, Active or Deactivated" },
+    { "name": "language", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "invitedOn", "type": "DateTime", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "lastSignedIn", "type": "DateTime", "isArray": false, "isRequired": false, "isUniqueData": false }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "blx_brands",
+  "schemaName": "Brand",
+  "schemaType": 1,
+  "fields": [
+    { "name": "name", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": true },
+    { "name": "slug", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": true },
+    { "name": "customDomain", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "domainState", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false, "description": "Waiting for DNS or Connected" },
+    { "name": "currency", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "state", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "Live or Suspended" },
+    { "name": "ownerUserId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "ownerEmail", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "createdOn", "type": "DateTime", "isArray": false, "isRequired": true, "isUniqueData": false }
+  ]
+}

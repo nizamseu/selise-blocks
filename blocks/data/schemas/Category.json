@@ -1,0 +1,11 @@
+{
+  "collectionName": "blx_categorys",
+  "schemaName": "Category",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "name", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "slug", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "position", "type": "Int", "isArray": false, "isRequired": true, "isUniqueData": false }
+  ]
+}

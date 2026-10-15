@@ -1,0 +1,13 @@
+{
+  "collectionName": "blx_historyentrys",
+  "schemaName": "HistoryEntry",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "productId", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "whatChanged", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "actorName", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "actorUserId", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "when", "type": "DateTime", "isArray": false, "isRequired": true, "isUniqueData": false }
+  ]
+}

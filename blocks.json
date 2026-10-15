@@ -1,0 +1,17 @@
+{
+  "project": {
+    "tenantId": "Dff74fdd28f294683a8b7507e411d74fa",
+    "apiUrl": "https://blocksapi.slsblx.com",
+    "appDomain": "https://Dff74fdd28f294683a8b7507e411d74fa-646abf7d-e90e-4b71-a35c-4aba19958ef4.slsblx.com"
+  },
+  "data": {
+    "schemas": "blocks/data/schemas",
+    "rules": "blocks/data/rules.json"
+  },
+  "repo": {
+    "branch": "dev",
+    "fullName": "nizamseu/selise-blocks",
+    "provider": "github",
+    "url": "https://github.com/nizamseu/selise-blocks"
+  }
+}

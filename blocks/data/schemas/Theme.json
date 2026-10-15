@@ -1,0 +1,17 @@
+{
+  "collectionName": "blx_themes",
+  "schemaName": "Theme",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": true },
+    { "name": "startingLook", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "accent", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "surface", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "text", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "headingSize", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "cornerRoundness", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "draftJson", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "JSON of the working draft theme" },
+    { "name": "publishedJson", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false, "description": "JSON of the published theme shoppers see" },
+    { "name": "publishedAt", "type": "DateTime", "isArray": false, "isRequired": false, "isUniqueData": false }
+  ]
+}

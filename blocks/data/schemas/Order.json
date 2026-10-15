@@ -1,0 +1,17 @@
+{
+  "collectionName": "blx_orders",
+  "schemaName": "Order",
+  "schemaType": 1,
+  "fields": [
+    { "name": "brandId", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "reference", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "shopperName", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "shopperEmail", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "shopperAddress", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "itemsJson", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "JSON array of lines: product title, variant label, quantity, unit price" },
+    { "name": "total", "type": "Float", "isArray": false, "isRequired": true, "isUniqueData": false },
+    { "name": "state", "type": "String", "isArray": false, "isRequired": true, "isUniqueData": false, "description": "New, Packed, Fulfilled or Cancelled" },
+    { "name": "language", "type": "String", "isArray": false, "isRequired": false, "isUniqueData": false },
+    { "name": "placedOn", "type": "DateTime", "isArray": false, "isRequired": true, "isUniqueData": false }
+  ]
+}
